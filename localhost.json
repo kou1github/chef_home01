@@ -1,0 +1,9 @@
+// localhost.json
+{
+	"run_list" : [
+		"recipe[hello]",
+		"recipe[yum_repo]",
+		"recipe[vim]",
+		"recipe[apache]"
+	]
+}
